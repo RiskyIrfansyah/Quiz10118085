@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="343dp"
+        android:layout_height="95dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="28dp"
+        android:background="@color/PrimerGreen50">
+
+        <ImageView
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="24dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="23dp"
+            android:src="@drawable/logo1">
+        </ImageView>
+
+        <LinearLayout
+            android:layout_width="300dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="18dp"
+            android:layout_marginLeft="75dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="68dp"
+                android:layout_height="22dp"
+                android:id="@+id/digiteam"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:text="DigiTeam"
+                android:fontFamily="@font/robotoregular"
+                android:textColor="@color/black"
+                android:textFontWeight="500"
+                android:textSize="16sp"
+                android:lineHeight="22sp">
+            </TextView>
+            <TextView
+                android:layout_width="230dp"
+                android:layout_height="18dp"
+                android:id="@+id/text1"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:text="Digital Together Everyone Achieve More"
+                android:fontFamily="@font/latoregular"
+                android:textColor="@color/NeutralGrey600"
+                android:textSize="12sp"
+                android:lineHeight="18sp">
+            </TextView>
+            <TextView
+                android:layout_width="108dp"
+                android:layout_height="18dp"
+                android:id="@+id/text2"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:text="Jabar Digital Service"
+                android:fontFamily="@font/latoregular"
+                android:textColor="@color/NeutralGrey600"
+                android:textSize="12sp"
+                android:lineHeight="18sp">
+            </TextView>
+        </LinearLayout>
+    </RelativeLayout>
+
+</ScrollView>
+
+
+
